@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week_1 homework</title>
+    <style>
+      h1 {
+        color: #1a64d6;
+        font-size: 34px;
+        text-align: center;
+        margin: 0;
+      }
+      h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+      }
+      button {
+        border-radius: 30px;
+        color: white;
+        background-color: #1a64d6;
+        border: 1px solid #1a64d6;
+        margin: 20px auto;
+        padding: 10px;
+        display: block;
+        text-align: justify;
+      }
+      button:hover {
+        color: #1a64d6;
+        background-color: white;
+      }
+      p {
+        text-align: center;
+      }
+      li {
+        text-align: center;
+        list-style: none;
+        font-size: 34px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      ⛅
+      <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2>13° /<important> 23° </important></h2>
+    <ul>
+      <li>
+        <h3>
+          <strong style="font-size: 20px">🌧Tomorrow</strong>
+        </h3>
+        <br />
+        10° / <b>22°</b>
+      </li>
+      <li>
+        <h3><strong style="font-size: 20px">🌥 Saturday</strong></h3>
+        <br />
+        15° / <b>17°</b>
+      </li>
+      <li>
+        <h3><strong>☀️ Sunday</strong></h3>
+        <br />
+        25° / <b>28°</b>
+      </li>
+    </ul>
+    <button>Change City</button>
+    <p>Coded by Matt Delac</p>
+  </body>
+</html>
